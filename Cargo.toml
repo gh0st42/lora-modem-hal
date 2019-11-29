@@ -1,0 +1,16 @@
+[package]
+name = "lora-modem-hal"
+version = "0.1.0"
+authors = ["Lars Baumgaertner <baumgaertner@cs.tu-darmstadt.de>"]
+license = "MIT"
+repository = "https://github.com/gh0st42/lora-modem-hal"
+edition = "2018"
+description = "Hardware abstraction layer for LoRa modem access (rf95modem firmware, dragino hat, emulators..)"
+keywords = ["lora", "serial", "rf95"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#thiserror = "1.0"
+#serialport = "3.3.0"
+anyhow = "1.0.23"
